@@ -1,8 +1,8 @@
-import React, { useReducer, useEffect } from "react";
-import { Navigate, Route, Routes, useNavigate } from "react-router-dom";
+import React, { useReducer } from "react";
+import { Route, Routes, useNavigate } from "react-router-dom";
 import Booking from "../pages/Bookings/Booking";
 import ConfirmedBooking from "../pages/Bookings/ConfirmBooking";
-import Header from "./Header";
+import Header from "./Home";
 
 const Main = () => {
 
