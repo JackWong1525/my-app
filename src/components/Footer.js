@@ -1,5 +1,6 @@
 import React from "react"
-import small_logo from "../images/small_logo.png"
+import small_logo from "../assets/images/small_logo.png"
+import './Shared.css';
 
 const Footer = () => {
     return (

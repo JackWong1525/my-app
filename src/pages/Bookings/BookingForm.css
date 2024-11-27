@@ -1,0 +1,77 @@
+/* BookingForm.css */
+
+/* Scoped styles to BookingForm */
+.booking-form-container {
+    background-color: #f9f9f9;
+    padding: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Section for form content */
+.booking-form-container form {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 600px;
+    padding: 2rem;
+}
+
+/* Label styling */
+.booking-form-container label {
+    font-size: 1rem;
+    font-weight: bold;
+    color: #333;
+}
+
+/* Input and select styling */
+.booking-form-container input[type="date"],
+.booking-form-container input[type="number"],
+.booking-form-container select {
+    width: 100%;
+    padding: 0.8rem;
+    font-size: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.booking-form-container input[type="date"]:focus,
+.booking-form-container input[type="number"]:focus,
+.booking-form-container select:focus {
+    border-color: #5c6bc0;
+    /* Light blue on focus */
+    outline: none;
+}
+
+/* Submit button styling */
+.booking-form-container input[type="submit"] {
+    background-color: #ffb400;
+    color: white;
+    border: none;
+    padding: 1rem;
+    font-size: 1.1rem;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+}
+
+.booking-form-container input[type="submit"]:hover {
+    background-color: #e69d00;
+    /* Darken on hover */
+}
+
+/* Flexbox layout for inputs */
+.booking-form-container div {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Add some spacing between input fields */
+.booking-form-container div>input,
+.booking-form-container div>select {
+    margin-top: 0.5rem;
+}

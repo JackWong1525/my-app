@@ -1,5 +1,5 @@
 import React from "react";
-import littlelemon_logo from "../images/littlelemon_logo.png"
+import littlelemon_logo from "../assets/images/littlelemon_logo.png"
 
 const Nav = () => {
     return (
